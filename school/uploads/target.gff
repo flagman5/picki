@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--GFF created with GOAL 2009-03-21.-->
+<structure label-on="transition" type="fa">
+    <!--The list of alphabets.-->
+    <alphabet type="propositional">
+        <prop>yaw</prop>
+        <prop>roll</prop>
+    </alphabet>
+    <!--The list of states.-->
+    <stateSet>
+        <state sid="0">
+            <x>160.0</x>
+            <y>170.0</y>
+            <label>s0,s0</label>
+        </state>
+        <state sid="1">
+            <x>179.0</x>
+            <y>164.0</y>
+            <label>s0,s0</label>
+        </state>
+        <state sid="2">
+            <x>96.0</x>
+            <y>143.0</y>
+            <label>s0,s1</label>
+        </state>
+        <state sid="3">
+            <x>60.0</x>
+            <y>195.0</y>
+            <label>s1,s0</label>
+        </state>
+        <state sid="4">
+            <x>31.0</x>
+            <y>186.0</y>
+            <label>s1,s1</label>
+        </state>
+        <state sid="5">
+            <x>70.0</x>
+            <y>271.0</y>
+            <label>s0,s1</label>
+        </state>
+        <state sid="6">
+            <x>136.0</x>
+            <y>259.0</y>
+            <label>s1,s0</label>
+        </state>
+        <state sid="7">
+            <x>190.0</x>
+            <y>303.0</y>
+            <label>s1,s1</label>
+        </state>
+        <state sid="8">
+            <x>99.0</x>
+            <y>96.0</y>
+            <label>s0,s2</label>
+        </state>
+        <state sid="9">
+            <x>84.0</x>
+            <y>49.0</y>
+            <label>s1,s2</label>
+        </state>
+        <state sid="10">
+            <x>149.0</x>
+            <y>205.0</y>
+            <label>s2,s0</label>
+        </state>
+        <state sid="11">
+            <x>215.0</x>
+            <y>291.0</y>
+            <label>s2,s1</label>
+        </state>
+        <state sid="12">
+            <x>135.0</x>
+            <y>136.0</y>
+            <label>s2,s2</label>
+        </state>
+        <state sid="13">
+            <x>107.0</x>
+            <y>288.0</y>
+            <label>s0,s2</label>
+        </state>
+        <state sid="14">
+            <x>134.0</x>
+            <y>307.0</y>
+            <label>s1,s2</label>
+        </state>
+        <state sid="15">
+            <x>213.0</x>
+            <y>156.0</y>
+            <label>s2,s0</label>
+        </state>
+        <state sid="16">
+            <x>201.0</x>
+            <y>230.0</y>
+            <label>s2,s1</label>
+        </state>
+        <state sid="17">
+            <x>278.0</x>
+            <y>197.0</y>
+            <label>s2,s2</label>
+        </state>
+        <state sid="18">
+            <x>45.0</x>
+            <y>132.0</y>
+            <label>s0,s3</label>
+        </state>
+        <state sid="19">
+            <x>154.0</x>
+            <y>32.0</y>
+            <label>s1,s3</label>
+        </state>
+        <state sid="20">
+            <x>197.0</x>
+            <y>64.0</y>
+            <label>s2,s3</label>
+        </state>
+        <state sid="21">
+            <x>251.0</x>
+            <y>274.0</y>
+            <label>s3,s0</label>
+        </state>
+        <state sid="22">
+            <x>206.0</x>
+            <y>92.0</y>
+            <label>s3,s1</label>
+        </state>
+        <state sid="23">
+            <x>250.0</x>
+            <y>225.0</y>
+            <label>s3,s2</label>
+        </state>
+        <state sid="24">
+            <x>183.0</x>
+            <y>31.0</y>
+            <label>s3,s3</label>
+        </state>
+        <state sid="25">
+            <x>115.0</x>
+            <y>238.0</y>
+            <label>s0,s3</label>
+        </state>
+        <state sid="26">
+            <x>139.0</x>
+            <y>104.0</y>
+            <label>s1,s3</label>
+        </state>
+        <state sid="27">
+            <x>224.0</x>
+            <y>317.0</y>
+            <label>s2,s3</label>
+        </state>
+        <state sid="28">
+            <x>300.0</x>
+            <y>173.0</y>
+            <label>s3,s0</label>
+        </state>
+        <state sid="29">
+            <x>243.0</x>
+            <y>254.0</y>
+            <label>s3,s1</label>
+        </state>
+        <state sid="30">
+            <x>179.0</x>
+            <y>194.0</y>
+            <label>s3,s2</label>
+        </state>
+        <state sid="31">
+            <x>246.0</x>
+            <y>98.0</y>
+            <label>s3,s3</label>
+        </state>
+        <state sid="32">
+            <x>50.0</x>
+            <y>58.0</y>
+            <label>s0,s4</label>
+        </state>
+        <state sid="33">
+            <x>120.0</x>
+            <y>47.0</y>
+            <label>s1,s4</label>
+        </state>
+        <state sid="34">
+            <x>285.0</x>
+            <y>124.0</y>
+            <label>s2,s4</label>
+        </state>
+        <state sid="35">
+            <x>289.0</x>
+            <y>64.0</y>
+            <label>s3,s4</label>
+        </state>
+        <state sid="36">
+            <x>109.0</x>
+            <y>191.0</y>
+            <label>s0,s4</label>
+        </state>
+        <state sid="37">
+            <x>62.0</x>
+            <y>247.0</y>
+            <label>s1,s4</label>
+        </state>
+        <state sid="38">
+            <x>257.0</x>
+            <y>58.0</y>
+            <label>s2,s4</label>
+        </state>
+        <state sid="39">
+            <x>289.0</x>
+            <y>259.0</y>
+            <label>s3,s4</label>
+        </state>
+    </stateSet>
+    <!--The list of transitions.-->
+    <transitionSet>
+        <transition tid="55">
+            <from>13</from>
+            <to>26</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="75">
+            <from>18</from>
+            <to>33</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="13">
+            <from>3</from>
+            <to>11</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="104">
+            <from>28</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="114">
+            <from>33</from>
+            <to>15</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="47">
+            <from>11</from>
+            <to>23</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="7">
+            <from>1</from>
+            <to>7</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="44">
+            <from>11</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="111">
+            <from>31</from>
+            <to>36</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="86">
+            <from>22</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="109">
+            <from>30</from>
+            <to>18</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="65">
+            <from>16</from>
+            <to>8</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="30">
+            <from>7</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="89">
+            <from>23</from>
+            <to>25</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="43">
+            <from>10</from>
+            <to>22</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="8">
+            <from>2</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="57">
+            <from>14</from>
+            <to>27</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="91">
+            <from>24</from>
+            <to>32</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="23">
+            <from>5</from>
+            <to>14</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="124">
+            <from>38</from>
+            <to>28</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="15">
+            <from>3</from>
+            <to>5</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="81">
+            <from>20</from>
+            <to>32</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="106">
+            <from>29</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="121">
+            <from>37</from>
+            <to>10</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="5">
+            <from>1</from>
+            <to>5</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="79">
+            <from>19</from>
+            <to>32</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="122">
+            <from>37</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="10">
+            <from>2</from>
+            <to>6</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="108">
+            <from>30</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="36">
+            <from>9</from>
+            <to>15</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="99">
+            <from>26</from>
+            <to>36</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="35">
+            <from>8</from>
+            <to>19</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="68">
+            <from>17</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="9">
+            <from>2</from>
+            <to>8</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="63">
+            <from>15</from>
+            <to>29</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="80">
+            <from>20</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="64">
+            <from>16</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="1">
+            <from>0</from>
+            <to>2</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="120">
+            <from>36</from>
+            <to>6</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="49">
+            <from>12</from>
+            <to>18</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="61">
+            <from>15</from>
+            <to>5</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="54">
+            <from>13</from>
+            <to>6</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="87">
+            <from>22</from>
+            <to>8</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="90">
+            <from>24</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="41">
+            <from>10</from>
+            <to>2</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="125">
+            <from>39</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="59">
+            <from>14</from>
+            <to>25</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="92">
+            <from>25</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="38">
+            <from>9</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="76">
+            <from>19</from>
+            <to>10</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="94">
+            <from>25</from>
+            <to>3</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="83">
+            <from>20</from>
+            <to>35</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="78">
+            <from>19</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="119">
+            <from>36</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="48">
+            <from>12</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="52">
+            <from>13</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="20">
+            <from>5</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="25">
+            <from>6</from>
+            <to>16</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="22">
+            <from>5</from>
+            <to>3</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="100">
+            <from>27</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="115">
+            <from>33</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="62">
+            <from>15</from>
+            <to>28</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="71">
+            <from>17</from>
+            <to>31</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="42">
+            <from>10</from>
+            <to>21</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="39">
+            <from>9</from>
+            <to>18</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="17">
+            <from>4</from>
+            <to>12</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="84">
+            <from>21</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="116">
+            <from>34</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="28">
+            <from>7</from>
+            <to>15</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="27">
+            <from>6</from>
+            <to>2</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="107">
+            <from>29</from>
+            <to>13</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="12">
+            <from>3</from>
+            <to>10</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="40">
+            <from>10</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="117">
+            <from>34</from>
+            <to>21</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="14">
+            <from>3</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="88">
+            <from>23</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="96">
+            <from>26</from>
+            <to>15</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="3">
+            <from>0</from>
+            <to>4</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="73">
+            <from>18</from>
+            <to>32</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="32">
+            <from>8</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="50">
+            <from>12</from>
+            <to>21</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="34">
+            <from>8</from>
+            <to>3</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="37">
+            <from>9</from>
+            <to>20</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="118">
+            <from>35</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="102">
+            <from>27</from>
+            <to>21</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="4">
+            <from>1</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="0">
+            <from>0</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="16">
+            <from>4</from>
+            <to>10</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="2">
+            <from>0</from>
+            <to>3</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="18">
+            <from>4</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="51">
+            <from>12</from>
+            <to>24</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="123">
+            <from>38</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="45">
+            <from>11</from>
+            <to>13</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="112">
+            <from>32</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="113">
+            <from>32</from>
+            <to>3</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="77">
+            <from>19</from>
+            <to>34</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="26">
+            <from>6</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="6">
+            <from>1</from>
+            <to>6</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="103">
+            <from>27</from>
+            <to>39</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="31">
+            <from>7</from>
+            <to>13</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="33">
+            <from>8</from>
+            <to>18</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="110">
+            <from>31</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="19">
+            <from>4</from>
+            <to>8</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="58">
+            <from>14</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="97">
+            <from>26</from>
+            <to>38</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="56">
+            <from>14</from>
+            <to>10</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="101">
+            <from>27</from>
+            <to>36</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="21">
+            <from>5</from>
+            <to>13</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="11">
+            <from>2</from>
+            <to>9</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="24">
+            <from>6</from>
+            <to>15</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="82">
+            <from>20</from>
+            <to>28</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="66">
+            <from>16</from>
+            <to>28</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="74">
+            <from>18</from>
+            <to>6</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="70">
+            <from>17</from>
+            <to>28</to>
+            <read>yaw ~roll</read>
+        </transition>
+        <transition tid="29">
+            <from>7</from>
+            <to>17</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="69">
+            <from>17</from>
+            <to>25</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="105">
+            <from>28</from>
+            <to>2</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="85">
+            <from>21</from>
+            <to>5</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="95">
+            <from>25</from>
+            <to>37</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="60">
+            <from>15</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="72">
+            <from>18</from>
+            <to>0</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="98">
+            <from>26</from>
+            <to>1</to>
+            <read>yaw roll</read>
+        </transition>
+        <transition tid="53">
+            <from>13</from>
+            <to>25</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="67">
+            <from>16</from>
+            <to>30</to>
+            <read>~yaw ~roll</read>
+        </transition>
+        <transition tid="93">
+            <from>25</from>
+            <to>36</to>
+            <read>~yaw roll</read>
+        </transition>
+        <transition tid="46">
+            <from>11</from>
+            <to>21</to>
+            <read>yaw ~roll</read>
+        </transition>
+    </transitionSet>
+    <!--The list of initial states.-->
+    <initialStateSet>
+        <stateID>0</stateID>
+    </initialStateSet>
+    <!--The ACC record.-->
+    <acc type="buchi">
+        <stateID>0</stateID>
+        <stateID>5</stateID>
+        <stateID>6</stateID>
+        <stateID>7</stateID>
+        <stateID>8</stateID>
+        <stateID>9</stateID>
+        <stateID>10</stateID>
+        <stateID>11</stateID>
+        <stateID>12</stateID>
+        <stateID>25</stateID>
+        <stateID>26</stateID>
+        <stateID>27</stateID>
+        <stateID>28</stateID>
+        <stateID>29</stateID>
+        <stateID>30</stateID>
+        <stateID>31</stateID>
+        <stateID>32</stateID>
+        <stateID>33</stateID>
+        <stateID>34</stateID>
+        <stateID>35</stateID>
+    </acc>
+    <!--The automaton description record.-->
+    <description/>
+</structure>
